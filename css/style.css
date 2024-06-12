@@ -21,7 +21,7 @@
 
 
 body {
-    background-image: url(/overlay/bg-content.png);
+    background-image: url(./overlay/bg-content.png);
     background-repeat: repeat;
     background-size: contain;
 }
