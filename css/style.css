@@ -87,9 +87,9 @@ body {
 }
 
 
-@media (max-width: 450px){
+@media (max-width: 750px){
     html {
-        font-size: 22.5%;
+        font-size: 45.5%;
     }
 
     .start .start-text{
