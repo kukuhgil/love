@@ -80,9 +80,9 @@ body {
     }
 }
 
-@media (max-width:765px) {
+@media (max-width:865px) {
     html {
-        font-size: 58%;
+        font-size: 65.5%;
     }
 }
 
