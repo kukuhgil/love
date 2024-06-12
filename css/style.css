@@ -205,7 +205,7 @@ body {
 }
 
 .container3 {
-    background-image: url(/overlay/bg4.png);
+    background-image: url(./overlay/bg4.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
