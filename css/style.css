@@ -1,167 +1,530 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Happy Birthday</title>
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-</head>
-<body>
-    <div class="container" id="container">
-        <div class="isi">
-            <div class="judul">
-                    <h1>Tüm kalbimden gelen küçük bir hediye.</h1>
-            </div>
-            <div class="desc">
-                    Çocukluğundan bu ana kadar her güzel an,<br> seni gözümde bu kadar mükemmel bir kadına dönüştürdü
-            </div>
-                <div class="content" data-aos="fade-right" data-aos-duration="3000" data-aos-mirror="true">
-                    <div class="img">
-                        <img src="/overlay/kecil.png">
-                    </div>
-                    <div class="text">
-                        <p>Küçükken çekilmiş fotoğraflarına her baktığımda, kalbim tarif edilemez bir mutlulukla doluyor. O zamanlar, o kadar saf ve masum olan gülüşün, karanlık günlerime ışık verirdi.</p>
-                    </div>
-                </div>
-                <div class="content2" data-aos="fade-left" data-aos-duration="3000" data-aos-mirror="true">
-                    <div class="text">
-                        <p>Şimdi, sen büyüdüğünde, o gülümseme hala aynı kalıyor; şimdi her adımımı aydınlatan ışığı yayıyor. Küçükken her gülüşün ve kahkahan, bulutları delen güneş ışığı gibiydi ve şu ana kadar varlığın, hayatımda mutluluğun ve ilhamın kaynağı olmaya devam ediyor. Gülüşün, çocukluk döneminin yaşayan güzel bir hatırası ve birlikte çıktığımız her yolculukta bana güç veriyor.</p>
-                    </div>
-                <div class="img">
-                    <img src="/overlay/besar.png">
-                </div>
-            </div> 
-        </div>
+:root{
+    --text: #f5eee6;
+    --text2: #f3d7ca;
+    --text3:#e6a4b4;
+    --bg:#c86b85;
+}
+
+* {
+    font-family: 'Gwendolyn','Poppins','Pacifico','Bellota';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+body {
+    background-image: url(../overlay/bg-content.png);
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.start {
+    background-image: url(../overlay/bg.png);
+    background-size: cover;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.start .start-text{
+    margin-top:15%;
+    padding: 20px;
+    font-size: 4rem;
+    margin-bottom: 2%;
+    color: var(--text);
+    font-family:'Gwendolyn';
+}
+
+.start .start-desc{
+    font-family: 'Poppins';
+    color: #f5eee6;
+    font-weight: 400;
+    margin-bottom: 1.4rem;
+}
+
+.start .button {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    color: black;
+}
+
+.start .button:hover {
+    background-color: gray;
     
-            <div class="container2">
-                <div class="img">
-                    <img src="/overlay/item.png" alt="">
-                </div>
-            </div>
-    
-            <div class="container3">
-                <div class="content3">
-                    <div class="judul">
-                        <h1>Bugün doğum günü olan</h1>
-                    </div>       
-                </div>
-                <div class="data2">
-                    <div class="foto" data-aos="flip-left"
-                    data-aos-easing="ease-out-cubic"
-                    data-aos-duration="3000">
-                        <img src="/overlay/foto.png"> 
-                    </div>
-                    <div class="bio-text" data-aos="fade-right" data-aos-duration="3000" data-aos-mirror="true">
-                        <p>Adı: Feyza <br>Soyadı: AŞAR <br>Doğum Tarihi: Bursa, 03 Temmuz 2003 <br> Sevdiği Yemekler: Karpuz, Erik <br> Sevdiği İçecekler: Kahveler <br> En Sevdiği olan: Wita AŞAR <br> Sevdiği Filmler: Modern Family, Güneşi Beklerken, Kızıcılık Şerbeti, Ve diziler <br>Sevdiği Sanat: Tiyatro <br> <br>
-                            Sevgilinin sana duaları bu sene ve gelecek senelere :<br> İnşaAllah Allah sana sağlıklı versin, Mutluluk Versin, Kolaylık Versin, Hep Gülüşün ol, Hep Tanıdığım Sevgilimi ol, ve hep güçlü tatlı ve iyi bir kız ol ♥ </p>
-                </div>
-            </div>
-        </div>
-    
-            <div class="container4">
-                <div class="content4">
-                    <div class="wish">
-                        <img src="/overlay/wish.png" alt="">
-                    </div>
-                </div>
-            </div>
-    
-        <div class="container5">
-            <div class="judul2">
-                <h1>Our Memories</h1>
-            </div>
-            <div class="content5">
-                    <div class="pertama">
-                        <img src="/overlay/1.jpg" alt="">
-                    </div>
-                    <div class="text-pertama" data-aos="fade-right" data-aos-duration="3000" data-aos-mirror="true">
-                        <p>03 Ağustos 2021, ilk buluşmamız ve harika bir aşk hikayesinin başlangıcı olarak unutulmaz bir gündü. O günden beri her adımımız mutluluk ve aşkla dolu. Seni ilk kez gördüğümde ne kadar şanslı hissettiğimi hâlâ hatırlıyorum. O kadar heyecanlıydım ki, ne söyleyeceğimi bilemedim ve sözlerimle o güzel anı mahvetmekten korktum. Ancak o buluşmadan sonra, bu heyecan yerini her gün paylaştığımız kahkaha ve mutluluğa bıraktı. Seninle birlikte, gerçek mutluluğu ve saf aşkı buldum.</p>
-                    </div>
-                </div> 
-            </div>
-    
-            <div class="container11">
-                <div class="content11">
-                    <div class="text-ketujuh" data-aos="fade-left" data-aos-duration="3000" data-aos-mirror="true">
-                        <p>Aynı ay içinde, beni Kapadokya'ya götürdün. Bu, aynı odada kaldığımız ilk anımızdı. Ben seni rahatsız etmekten endişe duyarak hareket ettim ve erken uyumaya karar verdim, ahahaha. Ama o geceyi çok keyifli geçirdim, senin o beyaz yastığı kucakladığını görmek çok tatlıydı ve sen de çok sevimli görünüyordun, hehe. Sabahında ise beraber balonların uçuşunu izlemek çok güzeldi.</p>
-                    </div>
-                    <div class="ketujuh">
-                        <img src="/overlay/8.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-    
-            <div class="container6">
-                <div class="content6">
-                    <div class="kedua">
-                        <img src="/overlay/2.jpg" alt="">
-                    </div>
-                    <div class="text-kedua" data-aos="fade-right" data-aos-duration="3000" data-aos-mirror="true">
-                        <p>03 Şubat 2022, Kasım ayından bu yana birlikte olduğumuz üç ayı işaret ediyor. İlk kez Bursa'ya geldiğimde, beni siyah şemsiyeli, utangaç ve nazikçe selamlayan bir melek karşıladı. Beni Bursa'nın güzelliklerini görmek için gezdirdin. Ancak, Bursa'yı bu kadar güzel yapan senin varlığındı.</p>
-                    </div>
-            </div>
-        </div>
-    
-        <div class="container7">
-            <div class="content7">
-                <div class="text-ketiga" data-aos="fade-left" data-aos-duration="3000" data-aos-mirror="true">
-                    <p>Ankara'ya vardığımızda, seni yolcu ettim. Bu ayrılık, hiç istemediğim bir şeydi ama kendi şehirlerimize dönmek zorundaydık. Ankara terminalinde, tatlı dudaklarını öptüm. Biliyor musun? Seni öpmek ve sarılmak her gün en çok istediğim şey. Güzel gözlerine bakarken, ayrılmanın ne kadar zor olduğunu hissettim.</p>
-                </div>
-                <div class="ketiga">
-                    <img src="/overlay/3.jpg" alt="">
-                </div>
-            </div>
-        </div>
-    
-        <div class="container8">
-            <div class="content8">
-                <div class="keempat">
-                    <img src="/overlay/4.jpg" alt="">
-                </div>
-                <div class="text-keempat" data-aos="fade-right" data-aos-duration="3000" data-aos-mirror="true">
-                    <p>Bu foto, gitmeden birkaç gün önce çekildi. Keşke zaman bir an durabilseydi de sıcak kucaklaşmamızın biraz daha uzun sürmesine izin verseydi. Seninle geçirdiğim her saniye, hep hatırlayacağım tatlı bir anıdır</p>
-                </div>
-            </div>
-        </div>
-    
-        <div class="container9">
-            <div class="content9">
-                <div class="text-kelima" data-aos="fade-left" data-aos-duration="3000" data-aos-mirror="true">
-                    <p>Bu Şubat ayında, ilk kez Uşak şehrine geldim ve seninle bir hafta boyunca aynı evde yaşadım. Bu kısa süre içinde, birlikte yaşamanın ve sevginin ne demek olduğunu öğrendim. Bu deneyim, kalbimi mutlulukla doldurdu ve sonsuza kadar seninle aynı evi paylaşmayı dileyerek güzel anılar biriktirmeyi umut ediyorum.</p>
-                </div>
-                <div class="kelima">
-                    <img src="/overlay/6.jpg" alt="">
-                </div>
-            </div>
-        </div>
-    
-        <div class="container10">
-            <div class="content10">
-                <div class="keenam">
-                    <img src="/overlay/7.jpg" alt="">
-                </div>
-                <div class="text-keenam" data-aos="fade-right" data-aos-duration="3000" data-aos-mirror="true">
-                    <p>Mayıs ayında buluşmamız, kahkaha, mutluluk dolu ve baharın güzellikleri arasında sevmek ve sevilmenin ne kadar güzel olduğunu bana öğreten bir andı. <br> <br> Gelecek ay İnşaAllah yine Buluşalım ♥</p>
-                </div>
-            </div>
-        </div>
-    
-        <div class="footer">
-            <h1>Doğüm Günün Kutlu Olsun</h1>
-            <p>Sonsuza kadar seni hep seviyorum ♥</p>
-        </div>
-    </div>
+}
+
+.start .alert{
+    padding-top: 1rem;
+    color: #f5eee6;
+    font-family: 'Poppins';
+}
+
+@media (max-width:1366px) {
+    html {
+        font-size: 85%;
+    }
+}
+
+@media (max-width:844px) {
+    html {
+        font-size: 65.5%;
+    }
+
+    .start{
+        padding-bottom: 7rem;
+    }
+}
 
 
-<audio autoplay="true">
-        <source src="audio/audio.m4a" type="audio/mpeg"></audio>
-    
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-</body>
-</html>
+@media (max-width: 750px){
+    html {
+        font-size: 30%;
+    }
+
+    .start{
+        padding-bottom: 7rem;
+    }
+}
+
+
+.container{
+    background-image: url(../overlay/bg2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow-x: hidden;
+}
+.container .isi {
+    padding: 1rem;
+}
+
+.container .isi .judul h1{
+    margin: 0.5rem 5%;
+    padding-top: 2rem;
+    font-family: 'Pacifico';
+    color: var(--text);
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #94663a;
+}
+
+.container .isi .desc {
+    font-family: 'Poppins';
+    font-weight: 700;
+    margin-bottom: 7%;
+    padding-left: 5rem;
+    color: #736d66;
+}
+
+.container .content {
+    display: flex;
+
+}
+
+.container .content .img {
+    flex: 1 1 15rem;
+    padding-left: 6rem;
+}
+
+.container .content .img img {
+    margin-bottom: 1rem;
+    width: 100%;
+    transform:rotate(-5deg) ;
+}
+
+.container .content .text {
+    padding-right: 7rem;
+    text-align: justify;
+    padding-left: 2rem;
+}
+
+.container .content .text p{
+    font-family: 'Poppins';
+    color: #736d66;
+    font-weight: 500;
+    padding-right: 1rem;
+}
+
+.container .content2 {
+    display: flex;
+}
+
+.container .content2 .img {
+    flex: 1 1 45rem;
+    padding-right: 5rem;
+}
+
+.container .content2 .img img {
+    width: 100%;
+    margin-bottom: 1rem;
+    transform: rotate(5deg);
+}
+
+.container .content2 .text {
+    padding-left: 12rem;
+    padding-top: 2rem;
+    padding-right: 3rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.container .content2 .text p{
+    color: #736d66;
+    margin-bottom: 10%;
+    font-family: 'Poppins';
+    font-weight: 500;
+
+}
+
+.container2{
+    display: flex;
+}
+
+.container2 .img img{
+    width: 100%;
+    height: 100%;
+}
+
+.container3 {
+    background-image: url(../overlay/bg4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container3 .content3{
+    display: flex;
+}
+
+.container3 .content3 h1{
+    position: relative;
+    font-size: 3rem;
+    color: var(--text);
+    font-family:'Bellota';
+    margin: 2rem 1rem 1rem 22.5rem;
+    font-weight: bolder;
+    color: #9b4819;
+    padding-bottom: 1rem;
+}
+
+.container3 .data2 {
+    display: flex;
+}
+
+.container3 .data2 .foto{
+    flex: 1 1 25rem;
+}
+
+.container3 .data2 .foto img{
+    width: 100%;
+    padding-left: 5rem;
+    padding-bottom: 5rem;
+}
+
+.container3 .data2 .bio-text{
+    text-align: justify;
+}
+
+.container3 .data2 .bio-text p{
+    font-family: 'Poppins';
+    color: #736d66;
+    font-weight: 500;
+    padding-right: 3rem;
+    padding-left: 5rem;
+    padding-bottom: 4rem;
+}
+
+
+.container4{
+    display: flex;
+}
+
+.container4 .content4 .wish img{
+    width: 100%;
+    height: 100%;
+}
+
+.container5{
+    display: flex;
+}
+
+
+.container5 .judul2 h1{
+    position: absolute;
+    color: #f5eee6;
+    font-size: 3rem;
+    font-family: 'Poppins';
+    margin: 2rem 1rem 1rem 27.5rem;
+}
+
+.container5 .content5 {
+    display: flex;
+}
+
+.container5 .content5 .pertama{
+    flex: 1 1 80rem;
+}
+
+
+.container5 .content5 .pertama img{
+    width: 100%;
+    padding-top: 10rem;
+    padding-left: 5rem;
+}
+
+.container5 .content5 .text-pertama{
+    padding-left: 2.5rem;
+    padding-top: 10rem;
+    padding-right: 5rem;
+    text-align: justify;
+}
+
+.container5 .content5 .text-pertama p{
+    font-family: 'Poppins';
+    color: var(--text);
+    font-weight: 500;
+    padding-right: 1rem;
+}
+
+
+.container6{
+    display: flex;
+}
+
+
+.container6 .content6 {
+    display: flex;
+}
+
+.container6 .content6 .kedua{
+    flex: 1 1 55rem;
+}
+
+
+.container6 .content6 .kedua img{
+    width: 100%;
+    padding-top: 10rem;
+    padding-left: 5rem;
+}
+
+.container6 .content6 .text-kedua{
+    padding-left: 2.5rem;
+    padding-top: 10rem;
+    padding-right: 5rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.container6 .content6 .text-kedua p{
+    font-family: 'Poppins';
+    color: var(--text);
+    font-weight: 500;
+    padding-right: 1rem;
+}
+
+.container7{
+    display: flex;
+}
+
+
+.container7 .content7 {
+    display: flex;
+}
+
+.container7 .content7 .ketiga{
+    flex: 1 1 60rem;
+}
+
+
+.container7 .content7 .ketiga img{
+    width: 100%;
+    padding-top: 10rem;
+    padding-right: 5rem;
+    padding-bottom: 3rem;
+}
+
+.container7 .content7 .text-ketiga{
+    padding-left: 5rem;
+    padding-right: 2.5rem;
+    padding-top: 10rem;
+    text-align: justify;
+}
+
+.container7 .content7 .text-ketiga p{
+    font-family: 'Poppins';
+    color: var(--text);
+    font-weight: 500;
+    padding-right: 1rem;
+}
+
+.container8{
+    display: flex;
+}
+
+
+.container8 .content8 {
+    display: flex;
+}
+
+.container8 .content8 .keempat{
+    flex: 1 1 35rem;
+}
+
+
+.container8 .content8 .keempat img{
+    width: 100%;
+    padding-top: 10rem;
+    padding-left: 5rem;
+}
+
+.container8 .content8 .text-keempat{
+    padding-left: 2.5rem;
+    padding-top: 10rem;
+    padding-right: 5rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.container8 .content8 .text-keempat p{
+    font-family: 'Poppins';
+    color: var(--text);
+    font-weight: 500;
+    padding-right: 1rem;
+}
+
+.container9{
+    display: flex;
+}
+
+
+.container9 .content9 {
+    display: flex;
+}
+
+.container9 .content9 .kelima{
+    flex: 1 1 45rem;
+}
+
+
+.container9 .content9 .kelima img{
+    width: 100%;
+    padding-top: 10rem;
+    padding-right: 5rem;
+    padding-bottom: 3rem;
+}
+
+.container9 .content9 .text-kelima{
+    padding-left: 5rem;
+    padding-right: 2.5rem;
+    padding-top: 10rem;
+    text-align: justify;
+}
+
+.container9 .content9 .text-kelima p{
+    font-family: 'Poppins';
+    color: var(--text);
+    font-weight: 500;
+    padding-right: 1rem;
+}
+
+.container10{
+    display: flex;
+}
+
+
+.container10 .content10 {
+    display: flex;
+}
+
+.container10 .content10 .keenam{
+    flex: 1 1 25rem;
+}
+
+
+.container10 .content10 .keenam img{
+    width: 100%;
+    padding-top: 10rem;
+    padding-left: 5rem;
+    padding-bottom: 2rem;
+}
+
+.container10 .content10 .text-keenam{
+    padding-left: 2.5rem;
+    padding-top: 10rem;
+    padding-right: 5rem;
+    text-align: justify;
+}
+
+.container10 .content10 .text-keenam p{
+    font-family: 'Poppins';
+    color: var(--text);
+    font-weight: 500;
+    padding-right: 1rem;
+}
+
+.container11{
+    display: flex;
+}
+
+
+.container11 .content11 {
+    display: flex;
+}
+
+.container11 .content11 .ketujuh{
+    flex: 1 1 75rem;
+}
+
+
+.container11 .content11 .ketujuh img{
+    width: 100%;
+    padding-top: 10rem;
+    padding-right: 5rem;
+}
+
+.container11 .content11 .text-ketujuh {
+    padding-left: 5rem;
+    padding-top: 10rem;
+    padding-right: 2.5rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.container11 .content11 .text-ketujuh p{
+    font-family: 'Poppins';
+    color: var(--text);
+    font-weight: 500;
+    padding-right: 1rem;
+}
+
+.footer{
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    color: #f5eee6;
+    padding-bottom: 1rem;
+}
+
+.footer h1{
+    font-family: 'Pacifico';
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.footer p{
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 0.8rem;
+}
