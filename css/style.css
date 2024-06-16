@@ -33,14 +33,14 @@ body {
 
 @media (max-width:844px) {
     html {
-        font-size: 65.5%;
+        font-size: 60%;
     }
 }
 
 
 @media (max-width: 740px){
     html {
-        font-size: 50%;
+        font-size: 45%;
     }
 }
 
