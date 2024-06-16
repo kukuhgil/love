@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+:root{
+    --text: #f5eee6;
+    --text2: #f3d7ca;
+    --text3:#e6a4b4;
+    --bg:#c86b85;
+}
+
+* {
+    font-family: 'Gwendolyn','Poppins','Pacifico','Bellota';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+.start {
+    background-image: url(../overlay/bg.png);
+    background-size: cover;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.start .start-text{
+    margin-top:15%;
+    padding: 20px;
+    font-size: 4rem;
+    margin-bottom: 2%;
+    color: var(--text);
+    font-family:'Gwendolyn';
+}
+
+.start .start-desc{
+    font-family: 'Poppins';
+    color: #f5eee6;
+    font-weight: 400;
+    margin-bottom: 1.4rem;
+}
+
+.start .button {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    color: black;
+}
+
+.start .button:hover {
+    background-color: gray;
+    
+}
+
+.start .alert{
+    padding-top: 1rem;
+    color: #f5eee6;
+    font-family: 'Poppins';
+}
+
+@media (max-width:1366px) {
+    html {
+        font-size: 85%;
+    }
+}
+
+@media (max-width:844px) {
+    html {
+        font-size: 65.5%;
+    }
+
+    .start{
+        padding-bottom: 7rem;
+    }
+}
+
+
+@media (max-width: 750px){
+    html {
+        font-size: 30%;
+    }
+
+    .start{
+        padding-bottom: 7rem;
+    }
+}
