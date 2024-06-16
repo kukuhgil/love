@@ -19,7 +19,6 @@
     border: none;
 }
 
-
 body {
     background-image: url(../overlay/bg-content.png);
     background-repeat: repeat;
@@ -104,6 +103,7 @@ body {
     background-image: url(../overlay/bg2.png);
     background-repeat: no-repeat;
     background-size: contain;
+    overflow-x: hidden;
 }
 .container .isi {
     padding: 1rem;
@@ -284,11 +284,10 @@ body {
 }
 
 .container5 .content5 .text-pertama{
-    padding-left: 5rem;
+    padding-left: 2.5rem;
     padding-top: 10rem;
     padding-right: 5rem;
     text-align: justify;
-    margin-bottom: 1rem;
 }
 
 .container5 .content5 .text-pertama p{
@@ -309,7 +308,7 @@ body {
 }
 
 .container6 .content6 .kedua{
-    flex: 1 1 65rem;
+    flex: 1 1 55rem;
 }
 
 
@@ -320,7 +319,7 @@ body {
 }
 
 .container6 .content6 .text-kedua{
-    padding-left: 5rem;
+    padding-left: 2.5rem;
     padding-top: 10rem;
     padding-right: 5rem;
     text-align: justify;
@@ -351,15 +350,15 @@ body {
 .container7 .content7 .ketiga img{
     width: 100%;
     padding-top: 10rem;
-    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 3rem;
 }
 
 .container7 .content7 .text-ketiga{
     padding-left: 5rem;
+    padding-right: 2.5rem;
     padding-top: 10rem;
-    padding-right: 5rem;
     text-align: justify;
-    margin-bottom: 1rem;
 }
 
 .container7 .content7 .text-ketiga p{
@@ -379,7 +378,7 @@ body {
 }
 
 .container8 .content8 .keempat{
-    flex: 1 1 50rem;
+    flex: 1 1 35rem;
 }
 
 
@@ -390,7 +389,7 @@ body {
 }
 
 .container8 .content8 .text-keempat{
-    padding-left: 5rem;
+    padding-left: 2.5rem;
     padding-top: 10rem;
     padding-right: 5rem;
     text-align: justify;
@@ -414,22 +413,22 @@ body {
 }
 
 .container9 .content9 .kelima{
-    flex: 1 1 60rem;
+    flex: 1 1 45rem;
 }
 
 
 .container9 .content9 .kelima img{
     width: 100%;
     padding-top: 10rem;
-    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 3rem;
 }
 
 .container9 .content9 .text-kelima{
     padding-left: 5rem;
+    padding-right: 2.5rem;
     padding-top: 10rem;
-    padding-right: 5rem;
     text-align: justify;
-    margin-bottom: 1rem;
 }
 
 .container9 .content9 .text-kelima p{
@@ -457,14 +456,14 @@ body {
     width: 100%;
     padding-top: 10rem;
     padding-left: 5rem;
+    padding-bottom: 2rem;
 }
 
 .container10 .content10 .text-keenam{
-    padding-left: 5rem;
+    padding-left: 2.5rem;
     padding-top: 10rem;
     padding-right: 5rem;
     text-align: justify;
-    margin-bottom: 1rem;
 }
 
 .container10 .content10 .text-keenam p{
@@ -491,13 +490,13 @@ body {
 .container11 .content11 .ketujuh img{
     width: 100%;
     padding-top: 10rem;
-    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
-.container11 .content11 .text-ketujuh{
+.container11 .content11 .text-ketujuh {
     padding-left: 5rem;
     padding-top: 10rem;
-    padding-right: 5rem;
+    padding-right: 2.5rem;
     text-align: justify;
     margin-bottom: 1rem;
 }
@@ -513,8 +512,8 @@ body {
     display: inline-block;
     text-align: center;
     align-items: center;
-    background-color: white;
     width: 100%;
+    color: #f5eee6;
 }
 
 .footer h1{
