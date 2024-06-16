@@ -73,7 +73,7 @@ body {
 
 @media (max-width:1366px) {
     html {
-        font-size: 100%;
+        font-size: 85%;
     }
 }
 
@@ -514,6 +514,7 @@ body {
     align-items: center;
     width: 100%;
     color: #f5eee6;
+    padding-bottom: 1rem;
 }
 
 .footer h1{
