@@ -25,6 +25,25 @@ body {
     background-size: contain;
 }
 
+@media (max-width:1366px) {
+    html {
+        font-size: 85%;
+    }
+}
+
+@media (max-width:844px) {
+    html {
+        font-size: 65.5%;
+    }
+}
+
+
+@media (max-width: 750px){
+    html {
+        font-size: 30%;
+    }
+}
+
 .container{
     background-image: url(../overlay/bg2.png);
     background-repeat: no-repeat;
