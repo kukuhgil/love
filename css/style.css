@@ -38,9 +38,9 @@ body {
 }
 
 
-@media (max-width: 750px){
+@media (max-width: 740px){
     html {
-        font-size: 30%;
+        font-size: 50%;
     }
 }
 
@@ -56,11 +56,10 @@ body {
 
 .container .isi .judul h1{
     margin: 0.5rem 5%;
-    padding-top: 2rem;
+    padding: 2rem 0 0 0;
     font-family: 'Pacifico';
     color: var(--text);
     font-size: 2.5rem;
-    margin-bottom: 10px;
     font-weight: bold;
     color: #94663a;
 }
@@ -68,8 +67,7 @@ body {
 .container .isi .desc {
     font-family: 'Poppins';
     font-weight: 700;
-    margin-bottom: 7%;
-    padding-left: 5rem;
+    padding:0 5rem 7%;
     color: #736d66;
 }
 
@@ -80,11 +78,10 @@ body {
 
 .container .content .img {
     flex: 1 1 15rem;
-    padding-left: 6rem;
+    padding-left: 5rem;
 }
 
 .container .content .img img {
-    margin-bottom: 1rem;
     width: 100%;
     transform:rotate(-5deg) ;
 }
@@ -107,27 +104,22 @@ body {
 }
 
 .container .content2 .img {
-    flex: 1 1 45rem;
-    padding-right: 5rem;
+    flex: 1 1 35rem;
+    padding: 0 5rem 1rem 0;
 }
 
 .container .content2 .img img {
     width: 100%;
-    margin-bottom: 1rem;
     transform: rotate(5deg);
 }
 
 .container .content2 .text {
-    padding-left: 12rem;
-    padding-top: 2rem;
-    padding-right: 3rem;
+    padding: 1rem 3rem 1rem 12rem;
     text-align: justify;
-    margin-bottom: 1rem;
 }
 
 .container .content2 .text p{
     color: #736d66;
-    margin-bottom: 10%;
     font-family: 'Poppins';
     font-weight: 500;
 
@@ -148,19 +140,18 @@ body {
     background-size: cover;
 }
 
-.container3 .content3{
-    display: flex;
-}
 
 .container3 .content3 h1{
-    position: relative;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    width: 100%;
     font-size: 3rem;
     color: var(--text);
     font-family:'Bellota';
-    margin: 2rem 1rem 1rem 22.5rem;
     font-weight: bolder;
     color: #9b4819;
-    padding-bottom: 1rem;
+    padding: 2rem 2rem;
 }
 
 .container3 .data2 {
@@ -173,8 +164,7 @@ body {
 
 .container3 .data2 .foto img{
     width: 100%;
-    padding-left: 5rem;
-    padding-bottom: 5rem;
+    padding: 0 0 5rem 5rem;
 }
 
 .container3 .data2 .bio-text{
@@ -185,9 +175,7 @@ body {
     font-family: 'Poppins';
     color: #736d66;
     font-weight: 500;
-    padding-right: 3rem;
-    padding-left: 5rem;
-    padding-bottom: 4rem;
+    padding: 0 3rem 4rem 3rem;
 }
 
 
@@ -197,20 +185,17 @@ body {
 
 .container4 .content4 .wish img{
     width: 100%;
-    height: 100%;
 }
-
-.container5{
-    display: flex;
-}
-
 
 .container5 .judul2 h1{
-    position: absolute;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    width: 100%;
     color: #f5eee6;
     font-size: 3rem;
     font-family: 'Poppins';
-    margin: 2rem 1rem 1rem 27.5rem;
+    padding: 2rem 2rem;
 }
 
 .container5 .content5 {
@@ -224,14 +209,11 @@ body {
 
 .container5 .content5 .pertama img{
     width: 100%;
-    padding-top: 10rem;
     padding-left: 5rem;
 }
 
 .container5 .content5 .text-pertama{
-    padding-left: 2.5rem;
-    padding-top: 10rem;
-    padding-right: 5rem;
+    padding: 0 5rem 0 2.5rem;
     text-align: justify;
 }
 
@@ -239,14 +221,7 @@ body {
     font-family: 'Poppins';
     color: var(--text);
     font-weight: 500;
-    padding-right: 1rem;
 }
-
-
-.container6{
-    display: flex;
-}
-
 
 .container6 .content6 {
     display: flex;
@@ -259,50 +234,36 @@ body {
 
 .container6 .content6 .kedua img{
     width: 100%;
-    padding-top: 10rem;
-    padding-left: 5rem;
+    padding: 10rem 0 0 5rem;
 }
 
 .container6 .content6 .text-kedua{
-    padding-left: 2.5rem;
-    padding-top: 10rem;
-    padding-right: 5rem;
+    padding: 10rem 5rem 0 2.5rem;
     text-align: justify;
-    margin-bottom: 1rem;
 }
 
 .container6 .content6 .text-kedua p{
     font-family: 'Poppins';
     color: var(--text);
     font-weight: 500;
-    padding-right: 1rem;
 }
-
-.container7{
-    display: flex;
-}
-
 
 .container7 .content7 {
     display: flex;
 }
 
 .container7 .content7 .ketiga{
-    flex: 1 1 60rem;
+    flex: 1 1 50rem;
 }
 
 
 .container7 .content7 .ketiga img{
     width: 100%;
-    padding-top: 10rem;
-    padding-right: 5rem;
-    padding-bottom: 3rem;
+    padding: 10rem 5rem 0 0;
 }
 
 .container7 .content7 .text-ketiga{
-    padding-left: 5rem;
-    padding-right: 2.5rem;
-    padding-top: 10rem;
+    padding: 10rem 2.5rem 0 5rem;
     text-align: justify;
 }
 
@@ -310,46 +271,31 @@ body {
     font-family: 'Poppins';
     color: var(--text);
     font-weight: 500;
-    padding-right: 1rem;
 }
-
-.container8{
-    display: flex;
-}
-
 
 .container8 .content8 {
     display: flex;
 }
 
 .container8 .content8 .keempat{
-    flex: 1 1 35rem;
+    flex: 1 1 30rem;
 }
 
 
 .container8 .content8 .keempat img{
     width: 100%;
-    padding-top: 10rem;
-    padding-left: 5rem;
+    padding: 10rem 0 0 5rem;
 }
 
 .container8 .content8 .text-keempat{
-    padding-left: 2.5rem;
-    padding-top: 10rem;
-    padding-right: 5rem;
+    padding: 10rem 5rem 0 2.5rem;
     text-align: justify;
-    margin-bottom: 1rem;
 }
 
 .container8 .content8 .text-keempat p{
     font-family: 'Poppins';
     color: var(--text);
     font-weight: 500;
-    padding-right: 1rem;
-}
-
-.container9{
-    display: flex;
 }
 
 
@@ -364,15 +310,11 @@ body {
 
 .container9 .content9 .kelima img{
     width: 100%;
-    padding-top: 10rem;
-    padding-right: 5rem;
-    padding-bottom: 3rem;
+    padding: 10rem 5rem 0 0;
 }
 
 .container9 .content9 .text-kelima{
-    padding-left: 5rem;
-    padding-right: 2.5rem;
-    padding-top: 10rem;
+    padding: 10rem 2.5rem 0 5rem;
     text-align: justify;
 }
 
@@ -380,34 +322,24 @@ body {
     font-family: 'Poppins';
     color: var(--text);
     font-weight: 500;
-    padding-right: 1rem;
 }
-
-.container10{
-    display: flex;
-}
-
 
 .container10 .content10 {
     display: flex;
 }
 
 .container10 .content10 .keenam{
-    flex: 1 1 25rem;
+    flex: 1 1 20rem;
 }
 
 
 .container10 .content10 .keenam img{
     width: 100%;
-    padding-top: 10rem;
-    padding-left: 5rem;
-    padding-bottom: 2rem;
+    padding: 10rem 0 0 5rem;
 }
 
 .container10 .content10 .text-keenam{
-    padding-left: 2.5rem;
-    padding-top: 10rem;
-    padding-right: 5rem;
+    padding: 10rem 5rem 0 2.5rem;
     text-align: justify;
 }
 
@@ -415,13 +347,7 @@ body {
     font-family: 'Poppins';
     color: var(--text);
     font-weight: 500;
-    padding-right: 1rem;
 }
-
-.container11{
-    display: flex;
-}
-
 
 .container11 .content11 {
     display: flex;
@@ -434,14 +360,11 @@ body {
 
 .container11 .content11 .ketujuh img{
     width: 100%;
-    padding-top: 10rem;
-    padding-right: 5rem;
+    padding: 10rem 5rem 0 0;
 }
 
 .container11 .content11 .text-ketujuh {
-    padding-left: 5rem;
-    padding-top: 10rem;
-    padding-right: 2.5rem;
+    padding: 10rem 2.5rem 0 5rem;
     text-align: justify;
     margin-bottom: 1rem;
 }
